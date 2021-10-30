@@ -32,3 +32,21 @@ x,y,z=0,0,0
 print(x, y, z)
 
 import this
+
+print("\n ")
+
+words=['gin','beer','mezcal','tequila','wine']
+print(words[1].title())
+words[1]='test'
+print(words[1].upper())
+words.append('zoom')
+print(words[2])
+words.insert(2,'webex')
+print(words[2])
+del words[2]
+print(words)
+print(sorted(words, reverse=True))
+print(words)
+words.sort(reverse=True)
+print(words)
+print(len(words))
