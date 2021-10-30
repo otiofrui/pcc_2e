@@ -50,3 +50,33 @@ print(words)
 words.sort(reverse=True)
 print(words)
 print(len(words))
+
+new=[]
+for word in words:
+    new.append(f"{word}, auch drin")
+    print(f"{word}, is great\n")
+
+print(new)
+
+print('de nada')
+
+newer=list(range(1,6))
+print(newer)
+
+sqrts=[]
+for value in range (2, 11, 2):
+    sqrt= value ** -2
+    sqrts.append(sqrt)
+
+print(sqrts)
+print(min(sqrts))
+
+squares = [value**2 for value in range(1, 11)]
+print(squares)
+
+print(squares[:3])
+print(squares[3:])
+
+tupels = (10, 20, 30)
+for tupel in tupels:
+    print(tupel)
